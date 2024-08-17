@@ -1,0 +1,36 @@
+%! Package = PACKAGE_NAME
+%! Author = maad
+%! Date = 01.08.2024
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{packages}[2024/08/01 maad Package]
+
+%%%%%%%%%%%%%%%
+%%   Setup   %%
+%%%%%%%%%%%%%%%
+
+\RequirePackage{amsmath,amsfonts}
+\RequirePackage{algorithmic}
+\RequirePackage{algorithm}
+\RequirePackage{array}
+\RequirePackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\RequirePackage{textcomp}
+\RequirePackage{stfloats}
+\RequirePackage{url}
+\RequirePackage{verbatim}
+\RequirePackage{graphicx}
+\RequirePackage{cite}
+\RequirePackage[nottoc]{tocbibind}
+
+\RequirePackage[
+    backend=biber,
+    bibencoding=utf8,
+    sorting=none,
+    urldate=edtf,
+    style=ieee,
+    maxnames=6,
+    minnames=1,
+    date=edtf,
+    seconds=true
+]{biblatex}
+
